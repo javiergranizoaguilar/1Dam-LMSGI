@@ -1,0 +1,80 @@
+.contenedor {
+    width: auto;
+    height: 587px;
+    background-color: rgb(223, 51, 67);
+}
+
+ h3 {
+    font-size: 1.5em;
+    line-height: 1.33;
+    color: white;
+    font-family: Roboto Slab, serif;
+    text-align: center;
+}
+
+#margen {
+    margin-top: 5%;
+}
+.contenedortarjetas {
+    display: flex;
+    max-width: 64em;
+    list-style-type: none;
+    box-sizing: border-box;
+    line-height: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centro{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.subtitulo{
+    color: #999;
+}
+
+li.listatarjetas {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 25%);
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    line-height: 1.25em;
+    font-weight: 400;
+    margin: 20px;
+}
+
+li.lista {
+    list-style: circle;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#boton{
+    background-color: #df3343;
+    color: #fff;
+    height: 50px;
+    border-radius: 5px;
+    width: 140px;
+    font-size: medium;
+    border: #fff;
+    font: Roboto Slab,serif;
+    font-weight: 500;
+}
+
+#boton:hover {
+    background-color: rgb(195, 20, 36);
+}
+
+
+
