@@ -1,0 +1,51 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.morado {
+    color: violet;
+}  
+
+article {
+    width: auto;
+}
+
+.rojo {
+    color: red;
+}
+
+#verdesubrayado {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+#cian {
+    color: cyan;
+}
+
+#rojosubrayado {
+    color: red;
+    text-decoration: underline;
+}
+
+table {
+    border: solid;
+    border-collapse: collapse;
+    border-width: 3px;
+    border-color: blueviolet;
+}
+
+tr {
+    border: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+}
+
+td {
+    border: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    width: auto;
+    padding: 15px;
+}
+
