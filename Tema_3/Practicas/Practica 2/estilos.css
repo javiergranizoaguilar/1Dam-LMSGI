@@ -9,9 +9,38 @@ table{
 th {
     border: solid;
     border-collapse: collapse;
+    padding: 10px;
+    font-weight: 400;
 }
 
 td {
     border: solid;
-    border-collapse: collapse;
+    border-collapse: collapse; 
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+/*  {
+    background: orange;
+} */
+
+.recreo {
+    background: blue;
+    color: white;
+}
+
+th::first-letter {
+    font-size: 25px;
+}
+
+.verde {
+    background: green;
+}
+
+.rojo {
+    background: red;
+}
+
+.aumentar:hover {
+    font-size: 25px;
 }
