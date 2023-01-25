@@ -1,0 +1,36 @@
+
+body {
+    background: #000;
+}
+
+
+h1 {
+    color: white;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+i {
+    font-size: 25px;
+    padding: 5px;
+    color: blueviolet;
+}
+
+
+li {
+    text-align: left;
+}
+
+li :hover {
+    background: cyan;
+    border: solid;
+    border-color: violet;
+    border-width: 3px;
+    border-radius: 5px;
+    width: 25%;
+    color: white;
+    font-size: 30px;
+}

@@ -20,11 +20,11 @@ td {
     text-transform: uppercase;
 }
 
-/*  {
+th:first-of-type {
     background: orange;
-} */
+} 
 
-.recreo {
+.fila4 td:nth-of-type(1) {
     background: blue;
     color: white;
 }
@@ -33,14 +33,40 @@ th::first-letter {
     font-size: 25px;
 }
 
-.verde {
+.fila6 td:nth-of-type(3) {
     background: green;
 }
 
-.rojo {
+.fila1 td:nth-of-type(2){
     background: red;
 }
 
 .aumentar:hover {
     font-size: 25px;
+}
+
+fieldset {
+    display: block;
+    min-inline-size: min-content;
+}
+
+.intex {
+    background: #ff4984;
+}
+
+.intex:focus {
+    background: yellow;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: red;
 }

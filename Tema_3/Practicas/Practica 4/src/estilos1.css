@@ -1,0 +1,130 @@
+:root {
+    --colorPrimario: #10454F;
+    --colorSegundario: #818274;
+    --colorHover: #A3AB78;
+    --colorLetra: #BDE038;
+}   
+
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+ }
+
+ body {
+    background: var(--colorSegundario);
+ }
+
+ body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--colorSegundario);
+    border-left: solid 3px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--colorLetra);
+    border-radius: 20px;
+    border: 1px solid;
+  }
+
+ nav {
+    text-align: center;
+ }
+
+ .menu{
+    text-align: center;
+    font-size: 24px;
+ }
+
+ ul.menu {
+    list-style-type: none;
+    background: var(--colorPrimario);
+    border-bottom: solid;
+ }
+
+.menu li {
+    display: inline-block;
+    background: var(--colorPrimario);
+    padding: 12px;
+    color: var(--colorLetra);
+    
+}
+
+.menu li:hover {
+    background: var(--colorHover);
+    cursor:pointer;
+    color: cyan;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/Fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1.an {
+    font-size: 6em;
+    color: white;
+}
+
+section.an {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2.an {
+    font-size: 4em;
+    color: white;
+}
+
+.bt input {
+    margin-top: auto;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4em;
+    padding: 20px;
+    border: 0px;
+    color: var(--colorLetra);
+    background: var(--colorPrimario);
+}
+
+.bt input:hover {
+    background: var(--colorHover);
+    color: cyan;
+    cursor: pointer;
+}
+
+footer {
+    background: var(--colorPrimario);
+    padding: 10px;
+}
+
+span {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    color: var(--colorLetra);
+}
+
+.rojo {
+    color: red;
+}
